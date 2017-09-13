@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFNotificationSample"
+        xmlns:tb="http://www.hardcodet.net/taskbar" x:Class="WPFNotificationSample.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <tb:TaskbarIcon x:Name="tb" HorizontalAlignment="Left" Height="10" Margin="0,0,0,0" VerticalAlignment="Top" Width="10" IconSource="t16.ico"/>
+        <Button Content="Show Notification
+                " HorizontalAlignment="Left" x:Name="btnShowNoti" Margin="83,79,0,0" VerticalAlignment="Top" Width="108" Height="53" Click="btnShowNoti_Click"/>
+
+    </Grid>
+</Window>
