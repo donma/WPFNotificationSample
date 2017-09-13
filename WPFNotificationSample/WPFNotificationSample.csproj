@@ -110,5 +110,8 @@
   <ItemGroup>
     <Resource Include="test.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="samplewpfnoti.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
